@@ -1,7 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import AboutView from "../views/AboutView.vue"
-import Paints from "../views/Paints.vue"
+import Paints from "../views/paints/Paints.vue"
+import PaintDetails from "../views/paints/PaintDetails.vue"
 
 const routes = [
   {
@@ -18,7 +19,13 @@ const routes = [
     path: '/paint',
     name: 'paints',
     component: Paints
+  },
+  {
+    path: '/paintdetails/:id',
+    name: 'PaintDetails',
+    component: PaintDetails
   }
+ 
 ]
 
 const router = createRouter({
