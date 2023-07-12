@@ -23,7 +23,8 @@ const routes = [
   {
     path: '/paintdetails/:id',
     name: 'PaintDetails',
-    component: PaintDetails
+    component: PaintDetails,
+    props: true
   }
  
 ]
