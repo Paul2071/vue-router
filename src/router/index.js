@@ -25,7 +25,12 @@ const routes = [
     name: 'PaintDetails',
     component: PaintDetails,
     props: true
+  },
+  {
+    path: '/all-paints',
+    redirect: 'paint'
   }
+  
  
 ]
 
