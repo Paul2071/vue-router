@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import AboutView from "../views/AboutView.vue"
 import Paints from "../views/paints/Paints.vue"
 import PaintDetails from "../views/paints/PaintDetails.vue"
+import NotFound from "../views/paints/NotFound.vue"
 
 const routes = [
   {
@@ -29,6 +30,11 @@ const routes = [
   {
     path: '/all-paints',
     redirect: 'paint'
+  },
+  {
+    path: '/:catchAll(.*)',
+    name: 'NotFound',
+    component: NotFound
   }
   
  
