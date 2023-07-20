@@ -1,5 +1,5 @@
 {
-    "paints" : [
+    "painting" : [
         {"name": "Talassar Blue", "id": 1, "type": "contrast"},
         {"name": "Sotek Green", "id": 2, "type": "base"},
         {"name": "Wraith Bone", "id": 3, "type": "layer"}

@@ -33,9 +33,7 @@ export default {
   data() {
     return {
       paints: [
-        { name: "Striking Scorpion Green", id: 1, type: "contrast" },
-        { name: "Doomfire Magenta", id: 2, type: "contrast" },
-        { name: "Kroxigor Scales", id: 3, type: "contrast" },
+       
       ],
     };
   },
