@@ -37,5 +37,11 @@ export default {
       ],
     };
   },
+  mounted () {
+    fetch("http://localhost:3000/painting") 
+    .then( res => res.json() )
+    .then( data => this.paints = data)
+    .catch( err => console.log(err.message))
+  }
 };
 </script>
