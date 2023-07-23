@@ -2,6 +2,8 @@
     "painting" : [
         {"name": "Talassar Blue", "id": 1, "type": "contrast"},
         {"name": "Sotek Green", "id": 2, "type": "base"},
-        {"name": "Wraith Bone", "id": 3, "type": "layer"}
+        {"name": "Wraith Bone", "id": 3, "type": "layer"},
+        {"name": "Leadbelcher", "id": 4, "type": "base"},
+        {"name": "Thousand Sons Blue", "id": 5, "type": "base"}
     ]
 }
