@@ -1,0 +1,4 @@
+options api vs composition api
+
+options much more difficult to group feature logic together. To get data, then format data, 3 moving parts. As apps get complex, hard to follow.
+composition allows you to group them together, can make resuable logic.
